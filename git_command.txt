@@ -1,0 +1,12 @@
+/* ファイルの変更をインデックスに追加する(.git/index  .git/objects)
+git add (filename)
+
+/*インデックスからローカルリポジトリにコミット
+git commit
+	-m "(message)" /*同時にメッセージを追加
+
+/*リモートリポジトリ情報追加
+git remote add origin (address)
+
+/*リモートリポジトリへプッシュ
+git push origin (branch)
